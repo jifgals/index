@@ -596,7 +596,7 @@ button:hover {
     </style>
 </head>
 <body>
-    <form action="https://jiffgals.github.io/login" method="post">
+    <form action="/login" method="post">
         <h2>LOGIN</h2>
         <?php if (isset($_GET['error'])) { ?>
             <p class="error"><?php echo $_GET['error']; ?></p>
